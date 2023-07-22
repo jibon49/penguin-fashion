@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="flex flex-col md:flex-row items-center justify-around bg-[#FFFBF0] p-5">
+            <div class="w-1/2 flex align-middle justify-center">
+                <img class="w-full md:w-1/2 mb-5 p-5" src="./icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex flex-col font-medium font-roboto text-[#3C3C3C] md:flex-row text-center gap-8">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="flex align-middle justify-around gap-32 bg-[#FFFBF0] ">
+            <div class="pt-14">
+                <h1 class="text-7xl uppercase font-bebas"><span class="text-[#FABE4C]">Be the Penguins</span><br> of Winter</h1>
+                <p class="max-w-sm">Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                    <div class="mt-3">
+                        <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-lg flex items-center" ><img src="./icons/shopping-cart 1.png" alt=""> Buy now</button>
+                    </div>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+        <!-- end of banner -->
+    </main>
+    <footer></footer>
+</body>
+
+</html>
